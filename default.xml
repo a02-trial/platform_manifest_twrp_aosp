@@ -4,7 +4,7 @@
   <remote name="a02-trial" fetch="https://github.com/a02-trial" revision="physwizz" />
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
-  <project path="mt6739" name="a022f_kernel" clone-depth="1" remote="a02-trial" />
+  <project path="physwizz" name="a022f_kernel" clone-depth="1" remote="a02-trial" />
     <linkfile dest="build.config" src="build.config.mt6739" />
   
   <project path="AnyKernel3" name="AnyKernel3" remote="a02-trial" revision="master" />
